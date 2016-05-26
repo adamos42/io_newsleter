@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql>
+    <name>Ionize Newsleter module database</name>
+    <version>0.1</version>
+    <license>GPLv3</license>
+    
+    <tables>
+        <query>
+            CREATE TABLE IF NOT EXISTS `subscribers`
+            (
+              `email` varchar(100) NOT NULL,
+              `name` varchar(100) NOT NULL,
+              `key` varchar(100) NOT NULL,
+              `registered` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+              
+              PRIMARY KEY (`email`)
+            )
+            ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+        </query>
+ 
+    </tables>
+</sql>

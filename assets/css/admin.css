@@ -1,0 +1,69 @@
+h2.main.newsleter {
+    background: #f2f2f2 url('../images/icon_48_module.png') no-repeat 20px 18px;
+    background-size: auto 60%; padding: 10px 20px 10px 20px; margin: 0 0 0 0;
+    line-height: 50px; height: 50px;
+}
+
+#maincolumn.newsleter {
+   padding: 0;
+}
+
+#maincolumn.newsleter .mainTabs {
+	margin: 0; padding: 10px 10px 0 10px; background-color: #f2f2f2;
+}
+
+.newsleter-version {
+   position: relative; color: #888; font-size: 10px;
+   right: 10px;
+   top: -13px;
+}
+
+.github-icon {
+   background: url('../images/github_icon.png') no-repeat center center;
+   background-size: cover; width: 48px; height: 48px; display: inline-block;
+}
+
+
+.subscribersPanelList li {
+
+	-webkit-border-radius: 1px !important;
+	-moz-border-radius: 1px !important;
+	border-radius: 1px !important;
+	
+	display: table; width: 99%; padding: 4px;
+	background-color: #f2f2f2 !important; margin: 2px 6px;
+	padding: 5px 2px !important;
+}
+
+.subscribersPanelList li > a, .subscribersPanelList li > span {
+	display: table-cell; vertical-align: middle;
+}
+
+.subscribersPanelList .name, .subscribersPanelList .email {
+	overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.subscribersPanelList .name {
+	width: 150px;
+}
+
+.subscribersPanelList .email {
+	width: 250px;
+}
+
+.subscribersPanelList .action {
+	width: 16px;
+}
+
+.subscribersPanelList .label {
+	font-size: 80%; color: #888; background: transparent;
+}
+
+.subscribersPanelList li .icon {
+	opacity: 0;
+}
+
+.subscribersPanelList li:hover .icon {
+	opacity: 1;
+}
+
